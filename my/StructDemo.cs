@@ -1,4 +1,4 @@
-public static class testStruct
+public class StructDemo
 {
     class MyClassPoint
     {

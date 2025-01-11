@@ -1,6 +1,6 @@
 using System.Security.Cryptography.X509Certificates;
 
-public static class testFactorial
+public class FactorialDemo
 {
     public static void Solution()
     {

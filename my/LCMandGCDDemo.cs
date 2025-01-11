@@ -1,4 +1,4 @@
-public static class testLCMandGCD
+public class LCMandGCDDemo
 {
     public static void Solution()
     {

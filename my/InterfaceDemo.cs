@@ -1,17 +1,17 @@
-// public static class testInterface
-// {
-//     public static void Solution()
-//     {
-//         IAnimal cat = new Cat();
-//         cat.bark();
+public class InterfaceDemo
+{
+    public static void Solution()
+    {
+        IAnimal cat = new Cat();
+        cat.bark();
 
-//         IAnimal dog = new Dog();
-//         dog.bark();
+        IAnimal dog = new Dog();
+        dog.bark();
 
-//         Dog dog1 = new Dog();
-//         dog1.aa();
-//     }
-// }
+        Dog dog1 = new Dog();
+        dog1.aa();
+    }
+}
 
 public interface IAnimal
 {

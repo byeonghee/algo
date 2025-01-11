@@ -48,7 +48,7 @@ public class MyCustomer
     }
 }
 
-public static class testClass
+public class ClassDemo
 {
     public static void Solution()
     {

@@ -1,4 +1,4 @@
-public class testButton_Event
+public class Button_EventDemo
 {
 
     class Button

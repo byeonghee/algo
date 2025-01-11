@@ -1,4 +1,4 @@
-public static class testDelegate
+public class DelegateDemo
 {
     public static void Solution()
     {

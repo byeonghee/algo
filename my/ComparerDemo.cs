@@ -1,4 +1,4 @@
-public static class testComparer
+public class ComparerDemo
 {
     public static void Solution()
     {
