@@ -9,7 +9,7 @@ public static class BJ11724
     {
         visited[idx] = true;
 
-        Console.WriteLine("idx: {0}", idx);
+        // Console.WriteLine("idx: {0}", idx);
         for (int i = 1; i <= N; i++)
         {
             if (!visited[i] && graph[idx, i] == 1)

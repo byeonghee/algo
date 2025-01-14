@@ -21,6 +21,13 @@ public class ComparerDemo
         {
             Console.WriteLine("{0} {1}", p._name, p._age);
         }
+
+        Array.Sort(people, new PersonAgeComparator());
+
+        foreach (Person p in people)
+        {
+            Console.WriteLine("{0} {1}", p._name, p._age);
+        }
     }
 }
 
@@ -38,6 +45,15 @@ public class Person : IComparable<Person>
     {
         return _age - other._age;
     }
+}
+
+class PersonAgeComparator : IComparer<Person>
+{
+    public int Compare(Person? x, Person? y)
+    {
+        return y._age - x._age;
+    }
+
 }
 
 public class IntComparer : IComparer<int>

@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            BJ11725.Solution();
+            ObjectNote.Solution();
         }
 
     }
