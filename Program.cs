@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            BJ1715.Solution();
+            BJ1918.Solution();
         }
     }
 }
